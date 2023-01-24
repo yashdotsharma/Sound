@@ -1,0 +1,140 @@
+*{
+    /* background-color: black; */
+    color: aliceblue;
+}
+li , a{
+    font-weight: 700;
+    font-size: 18px;
+    color: white;   
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header{
+    background-color: black;
+    /* border-radius: 10px; */
+    position: fixed;
+    width: 99%;
+    /* background-color:black; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 1rem;
+    /* padding: 1rem; */
+}
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0rem 2rem;
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin-left: 15rem;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.nav-links li a{
+    transition: all 0.1s ease 0s;
+    font-size: 23px;
+}
+.nav-links li a:hover{
+    color: rgb(0, 107, 107);
+}
+.navbar button{
+    font-weight: 100;
+    font-size: 14px;
+    margin-left: 8rem;
+    cursor: pointer;
+    width: 7rem;
+    padding: 5px 10px;
+    text-align: left;
+    background-color: #5c5c5e;
+    border: none;
+    border-radius: 50px;
+}
+/* -------------------------------------------------------------------- */
+.home{
+    background-color: black;
+}
+.home .container{
+    padding: 6rem 2rem;
+    justify-items: center;
+    text-align: left;
+    font-size: 20px;
+}
+.home .container img{
+    /* margin-right: 0rem; */
+    /* justify-content: right; */
+    /* align-items: flex-end; */
+    /* justify-items: last baseline; */
+    height: 15rem;
+}
+.home button{
+    font-weight: 100;
+    font-size: 14px;
+    /* margin-left: 8rem; */
+    cursor: pointer;
+    width: 15rem;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* ----------------- ---------------------------- */
+.list{
+    background-color: black;
+    padding: 6rem 2rem;
+}
+
+.card{
+    /* padding-bottom: 20rem; */
+    background-color: black;
+    height: 30rem;
+    border-style: none;
+}
+.box{
+    border-radius: 10px;
+    background-color: brown;
+    height: 20rem;
+    transform: translateY(10rem);
+
+
+}
+.card img{
+    height: 20rem;
+    transform: translateY(-10rem);
+}
+.text{
+    background-color: brown;
+    height: 10rem;
+}
+.image{
+    height: 10rem;
+}
+.viewmore{
+    align-items: center;
+}
+.list button{
+    font-weight: 100;
+    font-size: 14px;
+    /* margin-left: 8rem; */
+    cursor: pointer;
+    width: 15rem;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+}
