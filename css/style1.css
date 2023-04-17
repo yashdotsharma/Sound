@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+.login{   
+    margin: 10rem 10rem 1rem 10rem;
+    padding: 2rem;
+    /* width: 50%; */
+    background-color: #343a40;;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.signup{   
+    margin: 6rem 11rem 5rem 11rem ;
+    padding: 1rem 5rem 1rem 5rem;
+    background-color: #343a40;;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
